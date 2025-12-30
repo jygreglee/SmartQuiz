@@ -1,0 +1,64 @@
+/* ===== 전체 폰트 ===== */
+* {
+    font-family: "Segoe UI", "Malgun Gothic", sans-serif;
+    font-size: 15px;
+}
+
+/* ===== 메인 배경 ===== */
+QWidget {
+    background-color: #F5F7FA;
+}
+
+/* ===== 제목 ===== */
+#title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0A5EB7;
+}
+
+/* ===== 공통 버튼 스타일 ===== */
+QPushButton {
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+
+    /* 그림자 효과 */
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.15);
+
+    transition: background-color 150ms ease, transform 100ms ease;
+}
+
+/* 마우스 올렸을 때 */
+QPushButton:hover {
+    background-color: #1565C0;
+    transform: translateY(-1px);
+}
+
+/* 클릭 효과 */
+QPushButton:pressed {
+    background-color: #0D47A1;
+    transform: translateY(1px);
+}
+
+/* 텍스트 입력창 */
+QLineEdit {
+    background: white;
+    border: 1px solid #C9D3E1;
+    border-radius: 8px;
+    padding: 6px 8px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #1E88E5;
+    background: #FFFFFF;
+}
+
+/* 텍스트박스 */
+QTextEdit {
+    background: #FFFFFF;
+    border: 1px solid #C9D3E1;
+    border-radius: 8px;
+    padding: 8px;
+}
